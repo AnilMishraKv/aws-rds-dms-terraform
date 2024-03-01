@@ -47,7 +47,7 @@ Customize your deployment by adjusting the variables in the variables.tf file. D
   - Creation of an RDS database subnet group.
   - Configuration of the RDS instance, including its storage, engine, instance type, security groups, and more.
 
-## Implementation ([Video](https://drive.google.com/file/d/1fuIxKENorz8OK3cCH1VKeACjTDRAujJ4/view?usp=sharing))
+## Implementation (Video)
 
 ### Initialize the Terraform configuration by running:
 ```
@@ -64,20 +64,11 @@ terraform plan
 terraform apply
 ```
 - When prompted, confirm the execution by entering yes.
-
-![image](https://github.com/Airvedatech/terraform-rds-dms/assets/111087144/7b87648f-0601-4a73-af45-e1f809bfb7ef)
-
 - After the deployment completes, Terraform will display the RDS instance endpoint. This endpoint can be used to access the RDS instance.
 - Visit to [AWS RDS Console (Mumbai)](https://ap-south-1.console.aws.amazon.com/rds/home?region=ap-south-1#database:id=new-mysql-rds-rds;is-cluster=false), You will see your DB. Click on it to check it availability, CPU Utilization and its endpoint.
 
 ![image (1)](https://github.com/Airvedatech/terraform-rds-dms/assets/111087144/cef97fa4-233f-49e9-9b95-7bc9a3a6d366)
 
-## Access RDS DB
-- For accessing RDS, you can use MySQL Workbench. Install it in you local
-- Then, click on **connect to DB**.
-- Enter the credentials of you DB.
-- Allow your local IP in RDS security group to let you accces the DB.
-- Here's the [video](https://drive.google.com/file/d/15gK4mprd-rF-58QOA21OUVh6wlZ-qZXj/view?usp=sharing) for better understanding.
 
 ## Destruction:
 
