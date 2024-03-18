@@ -72,7 +72,7 @@ terraform apply
 
 ## Schema Creation with AWS Schema Conversion Tool (SCT)
 
-            ![AWS-SCT](https://github.com/AnilMishraKv/aws-rds-dms-terraform/assets/111087144/6b1e2161-e7ef-4173-b3ac-c61aa29108cd)
+![AWS-SCT](https://github.com/AnilMishraKv/aws-rds-dms-terraform/assets/111087144/6b1e2161-e7ef-4173-b3ac-c61aa29108cd)
 
 Install AWS Schema Conversion Tool (SCT): Download and install SCT on your local machine.
 
