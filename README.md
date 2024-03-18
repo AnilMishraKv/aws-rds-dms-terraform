@@ -70,6 +70,34 @@ terraform apply
 ![image (1)](https://github.com/Airvedatech/terraform-rds-dms/assets/111087144/cef97fa4-233f-49e9-9b95-7bc9a3a6d366)
 
 
+## Schema Creation with AWS Schema Conversion Tool (SCT)
+
+![AWS-SCT](https://github.com/AnilMishraKv/aws-rds-dms-terraform/assets/111087144/6b1e2161-e7ef-4173-b3ac-c61aa29108cd)
+
+Install AWS Schema Conversion Tool (SCT): Download and install SCT on your local machine.
+
+Create a New SCT Project: Open SCT, create a new project, and select source and target database engines (e.g., MySQL as source and Amazon RDS for MySQL as target).
+
+Connect to Source and Target Databases: Configure SCT to establish connections to your source and target databases by providing necessary connection details.
+
+Analyze and Convert Schema: Perform schema analysis using SCT to identify any compatibility issues or required modifications for the target database. Convert the schema to the target database format using SCT's conversion features.
+
+Review and Apply Schema Changes: Review the converted schema, modify if necessary for compatibility, and apply the changes to the target database.
+
+Validation and Testing: Validate the converted schema by checking data types, constraints, and indexes in the target database.
+
+## Setting Up AWS DMS Components
+
+Execute the Terraform commands as outlined in the README to initialize, validate, and apply the configurations for creating the required AWS DMS components.
+
+Create DMS Migration Task (Manually):
+
+Log in to the AWS Management Console.
+
+Navigate to the "Database Migration Service" page.
+
+Create migration tasks by specifying source and target databases, migration type, etc.
+
 ## Destruction:
 
 To tear down the infrastructure when no longer needed, run:
